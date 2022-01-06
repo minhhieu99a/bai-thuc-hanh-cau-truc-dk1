@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ifelse</title>
+</head>
+<body>
+<input id="A"placeholder="What is the 'offical' name of Javascript?"style="width: 400px">
+<button id="B" onclick="nhancautl()">Click!</button>
+<p id="ok"></p>
+<script>
+    function nhancautl(){
+        let anwer = document.getElementById("A").value;
+        if (anwer == "ECMAScript"){
+            document.getElementById("ok").innerText= "Right";
+        }else {
+            document.getElementById("ok").innerText= "Didn't know? ECMAScript!"
+        }
+    }
+</script>
+</body>
+</html>
